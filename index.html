@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Archana A L - Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      id="navbar-top"
+      class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top"
+    >
+      <div class="container-fluid px-5">
+        <a class="navbar-brand fw-bold fs-2" href="#" style="color: #f2f0f6"
+          >Archana A L</a
+        >
+        <button
+          class="nav-menu d-md-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <i class="bi bi-menu-button-fill"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <button class="c-btn ms-4 py-2 px-4 rounded-pill d-none d-md-block">
+          Hire Me
+        </button>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section class="home pt-5 pb-5" id="home">
+      <div class="row justify-content-evenly align-middle">
+        <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+          <h2 style="color: #3f396d">
+            Hello! I Am <br /><span class="c-orange">Archana A L</span>
+          </h2>
+          <p class="text-muted">
+            A passionate <strong>Web Developer</strong> and <strong>AI/ML Enthusiast</strong> creating innovative solutions for real-world problems.
+          </p>
+          <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+            <a
+              href="https://drive.google.com/file/d/1cAVCCr4E_ElBlEfx1TOnXziBVGAo8UEl/view?usp=drive_link"
+              download="Archana_Resume.pdf"
+              style="text-decoration: none; color: #fff;"
+              >Download CV</a
+            >
+          </button>
+          <a href="#portfolio" class="link ms-4">See My Work</a>
+        </div>
+        <div class="col-10 col-md-4 d-none d-md-block">
+          <img src="apj.jpg" class="img-fluid" alt="Archana A L" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section class="expertise mt-5" id="service">
+      <div class="heading text-center">
+        <small>What I Do</small>
+        <h3>My Expertise</h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-10 col-md-4" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <i class="bi bi-code-slash fs-1 text-primary"></i>
+            </div>
+            <div class="content mt-3">
+              <h4>Web Development</h4>
+              <p class="text-muted">
+                Building responsive and user-friendly websites using modern technologies like HTML, CSS, JavaScript, and React.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <i class="bi bi-robot fs-1 text-success"></i>
+            </div>
+            <div class="content mt-3">
+              <h4>AI/ML</h4>
+              <p class="text-muted">
+                Developing intelligent systems using Python, TensorFlow, and PyTorch for predictive modeling and NLP.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <i class="bi bi-bar-chart-line fs-1 text-warning"></i>
+            </div>
+            <div class="content mt-3">
+              <h4>Data Science</h4>
+              <p class="text-muted">
+                Transforming raw data into actionable insights using Python, SQL, and machine learning algorithms.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+      <div class="heading text-center pt-5">
+        <small>My Work</small>
+        <h3>Portfolio</h3>
+      </div>
+      <div class="portfolio-body">
+        <div class="row justify-content-evenly px-4">
+          <div class="post col-md-4 col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="image.png" class="card-img-top" alt="2048 Game" />
+              <div class="card-body text-center">
+                <h4 class="card-title">Curecrop</h4>
+                <span class="badge bg-primary">HTML</span>
+                <span class="badge bg-secondary">CSS</span>
+                <span class="badge bg-success">python</span>
+                <br />
+                <a href="https://github.com/Archana973al/CureCrop-Leaf-Diseases-Prediction" class="link">View Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img
+                src="image copy 3.png"
+                class="card-img-top"
+                alt="Currency Converter"
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title">Chatboat app</h4>
+                <span class="badge bg-primary">ReactJS</span>
+                <span class="badge bg-secondary">API</span>
+                <span class="badge bg-success">Gemini</span>
+                <br />
+                <a href="https://github.com/Archana973al/Simple-Chatbot-App-with-React-and-Google-s-Gemini-API" class="link">View Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="image copy 2.png" class="card-img-top" alt="Dictionary App" />
+              <div class="card-body text-center">
+                <h4 class="card-title">fake news detection</h4>
+                <span class="badge bg-primary">python</span>
+                <!-- <span class="badge bg-secondary">API</span>
+                <span class="badge bg-success">JavaScript</span> -->
+                <br />
+                <a href="#" class="link">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact py-5" id="contact">
+      <div class="heading text-center">
+        <small>Get in Touch</small>
+        <h3>Contact Me</h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-md-5 col-10 contact-details" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-geo-alt-fill fs-4 text-primary"></i>
+            </div>
+            <div class="col-11">
+              <p>Bngaluru,Karnataka</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-telephone-fill fs-4 text-success"></i>
+            </div>
+            <div class="col-11">
+              <p>+91 7022220508</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-envelope-fill fs-4 text-warning"></i>
+            </div>
+            <div class="col-11">
+              <p>archanaarchu64468@gmail.com.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
+          <div class="contact-form">
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Your Name"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Your Email"
+              />
+            </div>
+            <div class="mb-3">
+              <textarea
+                class="form-control"
+                id="message"
+                placeholder="Your Message"
+                rows="5"
+              ></textarea>
+            </div>
+            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+              Send Message
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-center text-white py-4 bg-dark">
+        <h3 class="pt-4" data-aos="fade-up">Archana A L</h3>
+        <div class="social-links mt-5" data-aos="fade-up">
+          <!-- GitHub Link -->
+          <a href="https://github.com/Archana973al" class="rounded-pill dribble" target="_blank">
+            <i class="bi bi-github fs-4"></i>
+          </a>
+          <!-- LinkedIn Link -->
+          <a href="https://www.linkedin.com/in/archana-a-l-782473265" class="rounded-pill whatsapp" target="_blank">
+            <i class="bi bi-linkedin fs-4"></i>
+          </a>
+          <!-- Twitter Link (Optional) -->
+          <!-- <a href="https://twitter.com/your-twitter-username" class="rounded-pill behance" target="_blank">
+            <i class="bi bi-twitter fs-4"></i>
+          </a> -->
+        </div>
+        <hr class="text-white my-4" />
+      </footer>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS Library -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        offset: 50,
+      });
+    </script>
+  </body>
+</html>
